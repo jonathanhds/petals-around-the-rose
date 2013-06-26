@@ -68,7 +68,7 @@ class Game
 
 	def read_int
 		r = gets.chomp
-		r = read_int unless r.i?
+		r = read_int unless r.number?
 		r.to_i
 	end
 
